@@ -1,0 +1,487 @@
+/* font-family: 'Lato', sans-serif; */
+/* green color: #72beaf */
+/* text color: #333333 */
+/* stronger green #00A093 */
+/* logo text color: #505962 */
+
+html { padding: env(safe-area-inset); }
+
+html, body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+ }
+
+.color-rio { color: #72beaf; }
+ 
+.offset:before {
+    content: "";
+    height: 10rem;
+    display: block;
+    margin-top: -10rem;
+ }
+
+h1 {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 300; 
+}
+
+h2 {
+    font-size: 2.9375rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 2rem;
+    word-spacing: .02rem;
+}
+
+nav { border-bottom: 2px solid rgba(245, 243, 242, 0.774); }
+
+.navbar {
+    background-color:#fff;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-size: .9375rem;
+}
+
+#home a,
+#home a:hover { color: #333333; }
+
+.animated-border {
+    position: relative;
+    padding-top: .25rem;
+}
+
+.navbar-nav {
+    padding-top: 1rem;
+    margin-right: 1rem;
+}
+
+.navbar-nav a { position: relative; }
+
+.nav-border:hover {
+    padding-top: .25rem;
+    border-top: 2px solid #72beaf;
+}
+
+nav .btn {
+    background-color: #00A093;
+    word-spacing: .25rem;
+    border-radius: 0;
+    color: #fff!important;
+    font-size: .9375rem;
+}
+
+nav .btn:hover { background-color: #32B3A8; }
+
+.slides { margin-top: 9%; }
+
+.slides h1 { text-shadow: 0px 2px 2px rgba(218, 217, 217, 0.4); }
+
+.slides i {
+    background-color:#72beaf;
+    color: #fff;
+    padding: .8rem 1.4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+}
+
+.carousel-indicators .square {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: .4rem;
+}
+
+.carousel-indicators .active { background-color: #72beaf; }
+
+.overlay-msg-one {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    color: #fff;
+    letter-spacing: .1rem;
+    word-spacing: .3rem;
+    line-height: 4.6rem;
+    margin-left: 15%;
+}
+
+.overlay-msg-two {
+    position: absolute;
+    top: 15%;
+    right: 33%;
+    letter-spacing: .1rem;
+    word-spacing: .3rem;
+    line-height: 4.6rem;
+    margin-left: 10%;
+}
+
+.nosotros, .tratamientos, .equipo { margin-top: 3.5rem; }
+
+.tratamientos { background-color: #f4f4f4; }
+
+.tratamientos h2 {
+    color: #72beaf;
+    margin-bottom: 2rem;
+}
+
+ .owl-stage { display: flex; }
+
+ .card {
+    height: 100%;
+    border-radius: 0;
+    text-align: center;
+    margin: 0 .8rem;
+    border: .1rem solid rgba(0, 0, 0, .075);
+    box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+    transition: transform .4s ease;
+ }
+
+ .card:hover {
+    transform: scale(.95);
+ }
+
+.top-image {
+    width: 30%;
+    margin: 1rem auto;
+}
+
+.tratamientos-descripcion div.owl-nav {
+    color: #72beaf;
+    display: inline-block;
+    font-size: 55px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.tratamientos-descripcion .arrows:hover {
+    background-color: #f4f4f4;
+    color: #72beaf; 
+}
+
+.tratamientos-descripcion .owl-next:focus,
+.tratamientos-descripcion .owl-prev:focus {
+    outline: none;
+  }
+
+.owl-prev, .owl-next { position: absolute; }
+
+.owl-prev {
+    left: -2rem;
+    top: 35%;
+}
+
+.owl-next {
+    right: -2rem;
+    top: 35%;
+}
+
+.owl-dots {
+    margin-top: 1rem;
+}
+
+button.owl-dot.active span,
+button.owl-dot:hover span {
+    background: #72beaf!important;
+    outline: none; 
+}
+
+button.owl-dot.active:focus {
+   outline: none; 
+}
+
+.equipo hr {
+    background-color:#72beaf;
+    height: 3px;
+    margin-top: 3rem;
+}
+
+.equipo .equipo-img {
+    margin: 0 auto;
+}
+
+.footer {
+    padding: 3.5rem 0;
+    background-color: rgba(0, 0, 0, .85);
+    color: #fff;
+    font-size: .875rem;
+    font-weight: 300;
+}
+
+.footer a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer a:hover {
+    color: #7f7f7f;
+    text-decoration: none;
+}
+
+.footer-address p {
+    font-size: 0.875rem;
+    color: #7f7f7f;
+}
+
+.footer .email {
+    color: #00A093;
+    letter-spacing: .05rem;
+    font-weight: 400;
+}
+
+.footer-logo i {
+    color: #72beaf;
+    font-size: 8rem;
+}
+
+.footer-logo p {
+    color: #bac0c5;
+    font-size: 2rem;
+    margin-left: 1rem;
+    line-height: 2.2rem;
+}
+
+a.top-scroll {
+    right: 1rem;
+    bottom: 12rem;
+    position: fixed;
+    opacity: .9;
+    z-index: 1000;
+    display: none;
+ }
+
+ a.top-scroll:hover {
+    opacity: 0.5;
+ }
+
+ .top-scroll i{
+    background-color:#72beaf;
+    color: #fff;
+    font-size: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    border-radius: 50%;
+ }
+
+ .emergencias-detalles {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: #000;
+    margin-left: 15%;
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.phone {
+    color: #00A093;
+    font-size: 1.3rem;
+    margin-left: .25rem;
+    font-weight: 400;
+}
+
+.address {
+    font-size: .9rem;
+    text-transform: capitalize;
+    word-spacing: .15rem;
+} 
+
+
+
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1200px (lg) */
+@media (max-width: 1199.98px) {
+    .tratamientos-descripcion div.owl-nav {
+        display: none;
+    }
+}
+
+/* Devices under 992px (md) */
+@media (max-width: 991.98px) {
+    .navbar { font-size: .75rem; }
+
+    .navbar-nav {
+        padding-top: 1rem;
+        margin-right: 1rem;
+    }
+
+    .navbar .btn {
+        padding:.2rem .2rem;
+        font-size: .75rem;
+    }
+
+    .equipo .equipo-img { text-align: center; }
+    
+    .slides h1 { font-size: 2rem; }
+
+    .slides h3 { font-size: 1.3rem; }
+
+    .overlay-msg-one, .overlay-msg-two {
+        padding-top: .6rem;
+        line-height: 1.2rem;
+    }
+
+    .slides i {
+        padding: .5rem .8rem;
+        font-size: 1.2rem;
+    }
+
+    .carousel-indicators .square {
+        height: .8rem;
+        width: .8rem;
+        margin-right: .4rem;
+    }
+
+    .footer-logo i {
+        font-size: 5rem;
+    }
+
+    .footer-logo p {
+        font-size: 1.3rem;
+        margin-left: .5rem;
+        line-height: 1.5rem;
+    }
+
+    a.top-scroll {
+        bottom: 16rem;
+     }
+
+}
+ 
+ /* Devices under 768px (sm) */
+ @media (max-width: 767.98px) {
+    .top-scroll i{
+        font-size: 1.8rem;
+        width: 1.8rem;
+     }
+
+    a.top-scroll { bottom: 28rem; }
+
+    .footer-logo i { font-size: 5rem; }
+
+    .footer-logo p {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    .footer-logo { width: 30%; }
+
+    .footer-address p { line-height: 1.5rem; }
+
+    .nosotros { text-align: center; }
+
+    .nosotros img { width: 80%; }
+
+    .slides { margin-top: 10%; }
+
+    .slides h1 { font-size: 1.8rem; }
+
+    .slides h3 { font-size: 1.1rem; }
+
+    .overlay-msg-one, .overlay-msg-two {
+        line-height: 1.2rem;
+    }
+
+    .slides i {
+        padding: .5rem .8rem;
+        font-size: 1.2rem;
+    }
+
+    .carousel-indicators .square {
+        height: .8rem;
+        width: .8rem;
+        margin-right: .4rem;
+    }
+
+    .emergencias-detalles {
+        top: 20%;
+        right: 25%;
+        color: #000;
+        font-size: .65rem;
+    }
+    
+    .phone {
+        color: #00A093;
+        font-size: 1rem;
+        margin-left: .25rem;
+        font-weight: 400;
+    }
+
+    .navbar-brand img { width: 40%; }
+
+    .navbar-brand { margin-right: auto; }
+
+    .address {
+        font-size: .75rem;
+        text-transform: capitalize;
+        word-spacing: .15rem;
+        font-weight: 400;
+    } 
+}
+ 
+ 
+ /* Devices under 576px (xs) */
+ @media (max-width: 575.98px) {
+    .slides h1 { font-size: 1.1rem; }
+    
+    .slides h3 { font-size: .8rem; }
+    
+    .overlay-msg-one, .overlay-msg-two {
+        line-height: 1.1rem;
+    }
+
+    .slides { margin-top: 12%; }
+
+    .slides i {
+        padding: .3rem .6rem;
+        font-size: 1rem;
+        color: #fff;
+    }
+
+    .carousel-indicators {
+        margin: 0;
+        height: 1.8rem;
+    
+    }
+
+    .carousel-indicators .square {
+        height: .6rem;
+        width: .6rem;
+        margin-right: .4rem;
+    }
+
+    .nosotros h2, .tratamientos h2, .equipo h2 {   
+        font-size: 2rem;
+    }
+
+    .emergencias-detalles {
+        top: 20%;
+        right: 25%;
+        color: #000;
+        font-size: .6rem;
+    }
+    
+    .phone {
+        color: #00A093;
+        font-size: .7rem;
+        margin-left: .25rem;
+        font-weight: 400;
+    }
+
+    .navbar-brand img {
+        width: 30%;
+    }
+
+  }
+
+ 
+ 
